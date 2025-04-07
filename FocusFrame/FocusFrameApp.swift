@@ -11,7 +11,9 @@ import SwiftUI
 struct FocusFrameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            view.backgroundcolor = .red
         }
     }
 }
+
+
